@@ -1,5 +1,5 @@
 # Odd Weights
-## JavaScript program for doing gym plate-math with odd, weird-weighted plates
+## JavaScript program for doing gym plate-math with odd, weirdly weighted plates
 
 With Covid-19 closing down all gyms, gym equipment has became insanely expensive, being sold out almost all over the world. Thus, I had to improvise: steel weight plates may not be available anywhere, but concrete sure is! Thus, I cast a ton of concrete plates, ranging from 60 lbs to 5 lbs.
 
@@ -9,6 +9,10 @@ Alas! A calculator that can handle plates with funky weights.
 
 ### How to use:
 Take your weights and pair them with their closest partners (e.g. 59.5 and 57.5 become approximately a pair of 58.5 plates). Add these values to the plate weights array, and just hand the target weight as a command line argument using node.
+
+
+### To-Do:
+1. Change algorith to calculate each side of the bar individually, allowing for imbalances in weight to be shown
 
 ---
 Licensed under GPLv3
