@@ -14,9 +14,9 @@ const getAllSubsets =
         );
 
 const allCombinations = getAllSubsets(platePairsAvg)
-let combinationsWeights = []
+let combinationsWeights = [] // Predefined for clarity
 let lowestError = -1
-let lowestErroWeight = -1
+let lowestErrorWeight = -1
 let lowestErrorComb = null
 
 for (index in allCombinations) {
@@ -26,7 +26,7 @@ for (index in allCombinations) {
 
   combinationsWeights.push(netWeight)
 
-  if (absError <= lowestError || lowestErrorComb === null) {
+  if (absError < lowestError || lowestErrorComb === null) {
     lowestError = absError
     lowestErrorWeight = netWeight
     lowestErrorComb = comb
