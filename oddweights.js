@@ -1,7 +1,11 @@
-const barWeight = 47
-const platePairsAvg = [ 58.5, 56.5, 50.75, 32.75,
-            13, 12.25,
-            5, 4.5, 0.625, 0.625 ]
+// Bar weights:
+//   StrongArm Powerbar:   43.5 lb
+//   SSB:                  47   lb
+//   EZ Curl Bar:          17.5 lb
+const barWeight = 43.5
+const platePairsAvg = [ 50.5, 50.5, 44.5, 44.5,
+	    25.5, 25, 21, 21, 20, 10,
+            5, 4.5, 2.5, 0.625, 0.625 ]
 
 const targetWeight = process.argv[2] // For node
 
